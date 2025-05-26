@@ -106,8 +106,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       dotenv:
-        specifier: ^16.4.7
-        version: 16.4.7
+        specifier: ^16.5.0
+        version: 16.5.0
       eslint:
         specifier: ^9.27.0
         version: 9.27.0(jiti@2.4.2)
@@ -2270,10 +2270,6 @@ packages:
 
   dotenv-expand@8.0.3:
     resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
-    engines: {node: '>=12'}
-
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
   dotenv@16.5.0:
@@ -6891,10 +6887,7 @@ snapshots:
 
   dotenv-expand@8.0.3: {}
 
-  dotenv@16.4.7: {}
-
-  dotenv@16.5.0:
-    optional: true
+  dotenv@16.5.0: {}
 
   ejs@3.1.10:
     dependencies:
@@ -8934,7 +8927,7 @@ snapshots:
       colorette: 2.0.20
       connect-history-api-fallback: 1.6.0
       consola: 2.15.3
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       dotenv-expand: 8.0.3
       ejs: 3.1.10
       fast-glob: 3.3.2
