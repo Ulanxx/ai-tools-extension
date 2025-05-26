@@ -106,8 +106,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       dotenv:
-        specifier: ^16.4.7
-        version: 16.4.7
+        specifier: ^16.5.0
+        version: 16.5.0
       eslint:
         specifier: ^9.27.0
         version: 9.27.0(jiti@2.4.2)
@@ -990,6 +990,10 @@ packages:
     resolution: {integrity: sha512-pTFBgqa/99JRA2H1qfyqv97MKWJrYngXBA/I0elZcYxvJgcCw3mApAoPW3mJ7vx3j+Ti0FyKUFZ4hWxdjKaxvA==}
     engines: {node: '>= 16'}
 
+  '@intlify/shared@11.1.4':
+    resolution: {integrity: sha512-zOW2L5+QnWRQgM/7WNSPxa6E0F3wR2/KEQV7P4s4AXzxzmg0MuzLNiixvkRJU5h0Xb3DnHic6zybKva28kabDw==}
+    engines: {node: '>= 16'}
+
   '@intlify/shared@12.0.0-alpha.2':
     resolution: {integrity: sha512-P2DULVX9nz3y8zKNqLw9Es1aAgQ1JGC+kgpx5q7yLmrnAKkPR5MybQWoEhxanefNJgUY5ehsgo+GKif59SrncA==}
     engines: {node: '>= 16'}
@@ -1496,6 +1500,9 @@ packages:
 
   '@types/node@22.15.19':
     resolution: {integrity: sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==}
+
+  '@types/node@22.15.21':
+    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
 
   '@types/web-bluetooth@0.0.21':
     resolution: {integrity: sha512-oIQLCGWtcFZy2JW77j9k8nHzAOpqMHLQejDA48XXMWH6tjCQHz5RCFz1bzsmROyL6PUm+LLnUiI4BCn221inxA==}
@@ -2274,10 +2281,6 @@ packages:
     resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
-    engines: {node: '>=12'}
-
   dotenv@16.5.0:
     resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
@@ -2287,8 +2290,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.155:
-    resolution: {integrity: sha512-ps5KcGGmwL8VaeJlvlDlu4fORQpv3+GIcF5I3f9tUKUlJ/wsysh6HU8P5L1XWRYeXfA0oJd4PyM8ds8zTFf6Ng==}
+  electron-to-chromium@1.5.157:
+    resolution: {integrity: sha512-/0ybgsQd1muo8QlnuTpKwtl0oX5YMlUGbm8xyqgDU00motRkKFFbUJySAQBWcY79rVqNLWIWa87BGVGClwAB2w==}
 
   electron-to-chromium@1.5.4:
     resolution: {integrity: sha512-orzA81VqLyIGUEA77YkVA1D+N+nNfl2isJVjjmOyrlxuooZ19ynb+dOlaDTqd/idKRS9lDCSBmtzM+kyCsMnkA==}
@@ -3589,8 +3592,8 @@ packages:
   proto-list@1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
 
-  protobufjs@7.5.2:
-    resolution: {integrity: sha512-f2ls6rpO6G153Cy+o2XQ+Y0sARLOZ17+OGVLHrc3VUKcLHYKEKWbkSujdBWQXM7gKn5NTfp0XnRPZn1MIu8n9w==}
+  protobufjs@7.4.0:
+    resolution: {integrity: sha512-mRUWCc3KUU4w1jU8sGxICXH/gNS94DvI1gxqDvBzhj1JpcsimQkYiOJfwsPUykUI5ZaspFbSgmBLER8IrQ3tqw==}
     engines: {node: '>=12.0.0'}
 
   punycode@2.3.1:
@@ -5461,14 +5464,14 @@ snapshots:
   '@grpc/grpc-js@1.9.15':
     dependencies:
       '@grpc/proto-loader': 0.7.15
-      '@types/node': 22.15.19
+      '@types/node': 22.15.21
     optional: true
 
   '@grpc/proto-loader@0.7.15':
     dependencies:
       lodash.camelcase: 4.3.0
       long: 5.3.2
-      protobufjs: 7.5.2
+      protobufjs: 7.4.0
       yargs: 17.7.2
     optional: true
 
@@ -5561,14 +5564,16 @@ snapshots:
 
   '@intlify/shared@11.1.3': {}
 
+  '@intlify/shared@11.1.4': {}
+
   '@intlify/shared@12.0.0-alpha.2': {}
 
   '@intlify/unplugin-vue-i18n@6.0.3(@vue/compiler-dom@3.5.13)(eslint@9.27.0(jiti@2.4.2))(rollup@4.34.4)(typescript@5.8.2)(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.27.0(jiti@2.4.2))
       '@intlify/bundle-utils': 10.0.0(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))
-      '@intlify/shared': 11.1.3
-      '@intlify/vue-i18n-extensions': 8.0.0(@intlify/shared@11.1.3)(@vue/compiler-dom@3.5.13)(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))
+      '@intlify/shared': 11.1.4
+      '@intlify/vue-i18n-extensions': 8.0.0(@intlify/shared@11.1.4)(@vue/compiler-dom@3.5.13)(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))
       '@rollup/pluginutils': 5.1.4(rollup@4.34.4)
       '@typescript-eslint/scope-manager': 8.18.2
       '@typescript-eslint/typescript-estree': 8.18.2(typescript@5.8.2)
@@ -5590,11 +5595,11 @@ snapshots:
       - supports-color
       - typescript
 
-  '@intlify/vue-i18n-extensions@8.0.0(@intlify/shared@11.1.3)(@vue/compiler-dom@3.5.13)(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))':
+  '@intlify/vue-i18n-extensions@8.0.0(@intlify/shared@11.1.4)(@vue/compiler-dom@3.5.13)(vue-i18n@11.1.3(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@babel/parser': 7.26.3
     optionalDependencies:
-      '@intlify/shared': 11.1.3
+      '@intlify/shared': 11.1.4
       '@vue/compiler-dom': 3.5.13
       vue: 3.5.13(typescript@5.8.2)
       vue-i18n: 11.1.3(vue@3.5.13(typescript@5.8.2))
@@ -6017,6 +6022,11 @@ snapshots:
   '@types/node@22.15.19':
     dependencies:
       undici-types: 6.21.0
+
+  '@types/node@22.15.21':
+    dependencies:
+      undici-types: 6.21.0
+    optional: true
 
   '@types/web-bluetooth@0.0.21': {}
 
@@ -6480,7 +6490,7 @@ snapshots:
   browserslist@4.24.5:
     dependencies:
       caniuse-lite: 1.0.30001718
-      electron-to-chromium: 1.5.155
+      electron-to-chromium: 1.5.157
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.5)
     optional: true
@@ -6894,16 +6904,13 @@ snapshots:
 
   dotenv-expand@8.0.3: {}
 
-  dotenv@16.4.7: {}
-
-  dotenv@16.5.0:
-    optional: true
+  dotenv@16.5.0: {}
 
   ejs@3.1.10:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.155:
+  electron-to-chromium@1.5.157:
     optional: true
 
   electron-to-chromium@1.5.4: {}
@@ -8223,7 +8230,7 @@ snapshots:
 
   proto-list@1.2.4: {}
 
-  protobufjs@7.5.2:
+  protobufjs@7.4.0:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
@@ -8235,7 +8242,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.15.19
+      '@types/node': 22.15.21
       long: 5.3.2
     optional: true
 
@@ -8937,7 +8944,7 @@ snapshots:
       colorette: 2.0.20
       connect-history-api-fallback: 1.6.0
       consola: 2.15.3
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       dotenv-expand: 8.0.3
       ejs: 3.1.10
       fast-glob: 3.3.2
