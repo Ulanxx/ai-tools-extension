@@ -46,7 +46,7 @@
     "sass": "^1.85.1",
     "tailwindcss": "^4.0.12",
     "terser": "^5.41.0",
-    "tsx": "^4.19.3",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.34.0",
     "unplugin-auto-import": "^19.1.1",
