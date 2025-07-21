@@ -13,7 +13,7 @@
     "@crxjs/vite-plugin": "^2.0.0-beta.32",
     "@eslint/compat": "^1.2.9",
     "@eslint/js": "^9.22.0",
-    "@iconify-json/carbon": "^1.2.8",
+    "@iconify-json/carbon": "^1.2.11",
     "@iconify-json/lucide": "^1.2.47",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/ph": "^1.2.2",
