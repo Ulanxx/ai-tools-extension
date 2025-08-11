@@ -33,7 +33,7 @@
     "chrome-types": "^0.1.345",
     "commander": "^14.0.0",
     "concurrently": "^9.1.2",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "daisyui": "^5.0.0",
     "dotenv": "^17.2.0",
     "eslint": "^9.27.0",
